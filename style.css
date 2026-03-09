@@ -10,7 +10,6 @@ html {
     height: 100%;
 
     /* Görselin kendi arkaplan tonuna yakın lacivert/koyu mavi renk */
-    background-color: #09101e;
 
     /* Masaüstü cihazlar için bg1.jpg görselini kullanıyoruz */
     background-image: url('bg1.jpg');
