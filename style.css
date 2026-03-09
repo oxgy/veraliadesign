@@ -12,8 +12,8 @@ html {
     /* Görselin kendi arkaplan tonuna yakın lacivert/koyu mavi renk */
     background-color: #09101e;
 
-    /* Buradaki 'bg.jpg' ismini görselinizin ismiyle değiştirebilirsiniz */
-    background-image: url('bg.jpg');
+    /* Masaüstü cihazlar için bg1.jpg görselini kullanıyoruz */
+    background-image: url('bg1.jpg');
 
     /* Varsayılan olarak ekranın tam ortasına yerleştir */
     background-position: center center;
@@ -28,6 +28,8 @@ html {
 
     body,
     html {
+        /* Mobil cihazlar için bg.jpg görselini kullanıyoruz */
+        background-image: url('bg.jpg');
         background-size: contain;
     }
 }
